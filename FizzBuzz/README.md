@@ -6,12 +6,16 @@ Question:
 
 How to compile?
 
-1.cd build
-1.make clean
-1.cmake ..
-1.make
+1. cd build
+
+2. make clean
+
+3. cmake ..
+
+4. make
 
 How to run
 
-1.cd build/src
-1.cd ./play
+1. cd build/src
+
+2. cd ./play
