@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/akshay/modern_cpp/cmake_examples/cmake_simple/src/blah.h
+iostream
+-
+
+/home/akshay/modern_cpp/cmake_examples/cmake_simple/src/hello.h
+iostream
+-
+
+/home/akshay/modern_cpp/cmake_examples/cmake_simple/src/main.cpp
+hello.h
+/home/akshay/modern_cpp/cmake_examples/cmake_simple/src/hello.h
+blah.h
+/home/akshay/modern_cpp/cmake_examples/cmake_simple/src/blah.h
+
